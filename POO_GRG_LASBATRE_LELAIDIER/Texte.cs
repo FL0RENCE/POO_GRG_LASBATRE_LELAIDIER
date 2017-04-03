@@ -12,11 +12,50 @@ namespace POO_GRG_LASBATRE_LELAIDIER
         private int y;
         private string contenu;
 
+        public int X
+        {
+            get
+            {
+                return x;
+            }
+
+            set
+            {
+                x = value;
+            }
+        }
+
+        public int Y
+        {
+            get
+            {
+                return y;
+            }
+
+            set
+            {
+                y = value;
+            }
+        }
+
+        public string Contenu
+        {
+            get
+            {
+                return contenu;
+            }
+
+            set
+            {
+                contenu = value;
+            }
+        }
+
         public Texte(int x, int y, string contenu)
         {
-            this.x = x;
-            this.y = y;
-            this.contenu = contenu;
+            this.X = x;
+            this.Y = y;
+            this.Contenu = contenu;
         }
     }
 }

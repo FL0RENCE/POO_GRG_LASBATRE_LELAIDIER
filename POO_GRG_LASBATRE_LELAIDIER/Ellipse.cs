@@ -15,10 +15,62 @@ namespace POO_GRG_LASBATRE_LELAIDIER
 
         public Ellipse(int cx, int cy, int rx, int ry)
         {
-            this.cx = cx;
-            this.cy = cy;
-            this.rx = rx;
-            this.ry = ry;
+            this.Cx = cx;
+            this.Cy = cy;
+            this.Rx = rx;
+            this.Ry = ry;
+        }
+
+        public int Cx
+        {
+            get
+            {
+                return cx;
+            }
+
+            set
+            {
+                cx = value;
+            }
+        }
+
+        public int Cy
+        {
+            get
+            {
+                return cy;
+            }
+
+            set
+            {
+                cy = value;
+            }
+        }
+
+        public int Rx
+        {
+            get
+            {
+                return rx;
+            }
+
+            set
+            {
+                rx = value;
+            }
+        }
+
+        public int Ry
+        {
+            get
+            {
+                return ry;
+            }
+
+            set
+            {
+                ry = value;
+            }
         }
     }
 }

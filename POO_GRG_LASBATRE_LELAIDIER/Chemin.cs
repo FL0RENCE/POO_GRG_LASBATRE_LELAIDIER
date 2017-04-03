@@ -12,7 +12,20 @@ namespace POO_GRG_LASBATRE_LELAIDIER
 
         public Chemin(string path)
         {
-            this.path = path;
+            this.Path = path;
+        }
+
+        public string Path
+        {
+            get
+            {
+                return path;
+            }
+
+            set
+            {
+                path = value;
+            }
         }
     }
 }

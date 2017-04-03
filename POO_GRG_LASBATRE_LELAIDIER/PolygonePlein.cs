@@ -12,7 +12,20 @@ namespace POO_GRG_LASBATRE_LELAIDIER
 
         public PolygonePlein(string points)
         {
-            this.points = points;
+            this.Points = points;
+        }
+
+        public string Points
+        {
+            get
+            {
+                return points;
+            }
+
+            set
+            {
+                points = value;
+            }
         }
     }
 }

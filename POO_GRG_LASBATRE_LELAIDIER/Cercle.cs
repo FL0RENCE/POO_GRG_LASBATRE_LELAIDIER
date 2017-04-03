@@ -14,9 +14,48 @@ namespace POO_GRG_LASBATRE_LELAIDIER
 
         public Cercle(int cx, int cy, int r)
         {
-            this.cx = cx;
-            this.cy = cy;
-            this.r = r;
+            this.Cx = cx;
+            this.Cy = cy;
+            this.R = r;
+        }
+
+        public int Cx
+        {
+            get
+            {
+                return cx;
+            }
+
+            set
+            {
+                cx = value;
+            }
+        }
+
+        public int Cy
+        {
+            get
+            {
+                return cy;
+            }
+
+            set
+            {
+                cy = value;
+            }
+        }
+
+        public int R
+        {
+            get
+            {
+                return r;
+            }
+
+            set
+            {
+                r = value;
+            }
         }
     }
 }
