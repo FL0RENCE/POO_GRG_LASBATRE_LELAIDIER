@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Cercle.cs" />
     <Compile Include="Chemin.cs" />
+    <Compile Include="Dessin.cs" />
     <Compile Include="Forme.cs" />
     <Compile Include="Ellipse.cs" />
     <Compile Include="PolygonePlein.cs" />
